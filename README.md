@@ -26,9 +26,3 @@ Install dependencies:
 ```sh
 make install
 ```
-
-
-
-
-
-[![N|Solid](https://webpack.js.org/site-logo.1fcab817090e78435061.svg)](https://webpack.js.org/)
