@@ -5,4 +5,24 @@
 
 
 
-https://frontend-project-11-theta.vercel.app/
+[Demo of Rss-reader](https://frontend-project-11-theta.vercel.app/)
+#### Installation:
+
+Clone repository:
+
+```sh
+git clone git@github.com:shaolanx/frontend-project-11.git
+```
+
+Go to repository folder:
+
+```sh
+cd frontend-project-11
+```
+
+Install dependencies:
+
+
+```sh
+make install
+```
