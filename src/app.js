@@ -4,7 +4,7 @@ import uniqueId from 'lodash/uniqueId.js';
 import onChange from 'on-change';
 import i18n from 'i18next';
 
-import render from './render.js';
+import render from './renders/render.js';
 import resources from './locales/index.js';
 import parse from './parse.js';
 
