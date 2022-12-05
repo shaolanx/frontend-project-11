@@ -41,7 +41,7 @@ const updatePosts = (watchedState) => {
   Promise.all(promises)
     .finally(() => setTimeout(() => {
       updatePosts(watchedState);
-    }, 5000));
+    }, 77775000));
 };
 
 export default () => {

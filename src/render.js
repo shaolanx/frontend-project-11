@@ -61,7 +61,7 @@ const getPosts = (state, i18n) => {
       title.classList.add('fw-bold');
     }
 
-    title.setAttribute('href', `${post.postLink}`);
+    title.setAttribute('href', `${post.link}`);
     title.setAttribute('data-id', `${post.postId}`);
     title.setAttribute('target', '_blank');
     title.setAttribute('rel', 'noopener noreferrer');
