@@ -6,7 +6,7 @@
 
 
 [Demo of Rss-reader](https://frontend-project-11-theta.vercel.app/)
-#### Installation:
+### Installation:
 
 Clone repository:
 
