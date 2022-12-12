@@ -32,15 +32,8 @@ const config = {
       test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
       type: 'asset',
     }, {
-      test: /\.(scss)$/,
-      use: [MiniCssExtractPlugin.loader,
-        {
-          loader: 'css-loader', // translates CSS into CommonJS modules
-        }, {
-          loader: 'postcss-loader', // Run post css actions
-        }, {
-          loader: 'sass-loader', // compiles Sass to CSS
-        }],
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
     },
     ],
   },

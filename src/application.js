@@ -84,7 +84,7 @@ export default () => {
       };
 
       const watchedState = onChange(initialState, render(initialState, elements, i18next));
-      updatePosts(watchedState);
+      setTimeout(updatePosts(watchedState), 5000);
 
       const addRss = (parsedRss, url) => {
         const { feed, posts } = parsedRss;

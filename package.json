@@ -2,8 +2,8 @@
   "type": "module",
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/shaolanx/frontend-project-11/workflows/hexlet-check/badge.svg)](https://github.com/shaolanx/frontend-project-11/actions)",
-  "main": "index.js",
+  "description": "RSS feed in real-time",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
